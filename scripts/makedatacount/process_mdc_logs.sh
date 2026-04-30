@@ -41,7 +41,7 @@ upload_to_hub=False
 clean_for_rerun=False
 platform_name="Harvard Dataverse"
 hub_base_url="https://api.datacite.org"
-cache_size=-64000
+cache_size=-1000000
 # If uploading to DataCite make sure the hub_api_token is defined in COUNTERPROCESSORDIR/config/secrets.yaml and not hard coded in this script
 
 # Testing with dataverse running in docker
